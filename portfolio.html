@@ -13,31 +13,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Меню нав. -->
     <header class="header">
-        <div class="container header-nav">
-                <a class="header-logo link" href="./index.html"><span class="logo">Web</span>Studio</a>
-            <nav class="nav">
-                <ul class="header-list list">
-                    <li class="header-item"><a class="header-link link" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="header-link link current" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
+        <div class="container navigation">
+                <a class="logo link" href="./index.html">
+                    <span class="logo__color">Web</span>Studio
+                </a>
+            <nav class="nav header__nav">
+                <ul class="menu-list list">
+                    <li class="menu-list__item"><a class="menu-list__link link" href="./index.html">Студия</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link link current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="header-contacts list">
-                <li class="header-contact">
-                    <a class="contact link" href="mailto:info@devstudio.com">
-                        <svg class="header-icon envelope" width="16" height="12">
+            <ul class="contacts header__contacts list">
+                <li class="contacts__item">
+                    <a class="contacts__link link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use href="./images/symbol-defs.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="header-contact">
-                    <a class="contact link" href="tel:+380961111111">
-                        <svg class="header-icon smartphone" width="10" height="16">
+                <li class="contacts__item">
+                    <a class="contacts__link link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -203,7 +206,9 @@
     <footer class="footer">
         <div class="container footer-cont">
             <div>
-                <a class="footer-logo link" href="./index.html"><span class="logo">Web</span>Studio</a>
+                <a class="logo footer__logo link" href="./index.html">
+                    <span class="logo__color">Web</span>Studio
+                </a>
                 <address class="footer-address">
                     <ul class="footer-list list">
                         <li class="footer-item"><a class="footer-location link" href="https://goo.gl/maps/wgvnbsvhfN1eCGzh8"

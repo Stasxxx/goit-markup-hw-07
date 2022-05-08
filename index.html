@@ -13,31 +13,34 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
         <!-- Меню нав. -->
         <header class="header">
-            <div class="container header-nav">
-                <a class="header-logo link" href="./index.html"><span class="logo">Web</span>Studio</a>
-                <nav class="nav">
-                    <ul class="header-list list">
-                        <li class="header-item"><a class="header-link link current" href="./index.html">Студия</a></li>
-                        <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
+            <div class="container navigation">
+                <a class="logo link" href="./index.html">
+                    <span class="logo__color">Web</span>Studio
+                </a>
+                <nav class="nav header__nav">
+                    <ul class="menu-list list">
+                        <li class="menu-list__item"><a class="menu-list__link link current" href="./index.html">Студия</a></li>
+                        <li class="menu-list__item"><a class="menu-list__link link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="menu-list__item"><a class="menu-list__link link" href="">Контакты</a></li>
                     </ul>
                 </nav>
-                <ul class="header-contacts list">
-                    <li class="header-contact">
-                        <a class="contact link" href="mailto:info@devstudio.com">
-                        <svg class="header-icon envelope" width="16" height="12">
+                <ul class="contacts header__contacts list">
+                    <li class="contacts__item">
+                        <a class="contacts__link link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use href="./images/symbol-defs.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com
                         </a>
                     </li>
-                    <li class="header-contact">
-                        <a class="contact link" href="tel:+380961111111">
-                        <svg class="header-icon smartphone" width="10" height="16">
+                    <li class="contacts__item">
+                        <a class="contacts__link link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -51,49 +54,49 @@
             <section class="hiro">
                 <div class="container">
                     <h1 class="hiro-title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hiro-btn" type="button" data-modal-open>Заказать услугу</button>
+                    <button class="button hiro__btn" type="button" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
             <!-- Особенности -->
             <section class="features">
                 <div class="container">
-                    <h2 class="visually-hidden features-title">Наши особенности</h2>
+                    <h2 class="visually-hidden ">Наши особенности</h2>
                     <ul class="features-list list">
-                        <li class="features-item">
-                            <div class="features-link link">
-                                <svg class="features-icon" width="70" height="70">
+                        <li class="features-list__item">
+                            <div class="icon-list features-list__icon link">
+                                <svg class="icon-list__img" width="70" height="70">
                                     <use href="./images/symbol-defs.svg#icon-antenna"></use>
                                 </svg>
                             </div>
-                            <h3 class="feature-title">Внимание к деталям</h3>
-                            <p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                            <h3 class="features-list__title">Внимание к деталям</h3>
+                            <p class="features-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="features-link link">
-                                <svg class="features-icon" width="70" height="70">
+                        <li class="features-list__item">
+                            <div class="icon-list features-list__icon link">
+                                <svg class="icon-list__img" width="70" height="70">
                                     <use href="./images/symbol-defs.svg#icon-clock"></use>
                                 </svg>
                             </div>
-                            <h3 class="feature-title">Пунктуальность</h3>
-                            <p class="feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                            <h3 class="features-list__title">Пунктуальность</h3>
+                            <p class="features-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="features-link link">
-                                <svg class="features-icon" width="70" height="70">
+                        <li class="features-list__item">
+                            <div class="icon-list features-list__icon link">
+                                <svg class="icon-list__img" width="70" height="70">
                                     <use href="./images/symbol-defs.svg#icon-diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="feature-title">Планирование</h3>
-                            <p class="feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                            <h3 class="features-list__title">Планирование</h3>
+                            <p class="features-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="features-link link">
-                                <svg class="features-icon" width="70" height="70">
+                        <li class="features-list__item">
+                            <div class="icon-list features-list__icon link">
+                                <svg class="icon-list__img" width="70" height="70">
                                     <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="feature-title">Современные технологии</h3>
-                            <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                            <h3 class="features-list__title">Современные технологии</h3>
+                            <p class="features-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
                     </ul>
                 </div>
@@ -101,23 +104,23 @@
             <!-- Чем занимаются -->
             <section class="promo">
                 <div class="container">
-                    <h2 class="promo-title">Чем мы занимаемся</h2>
+                    <h2 class="title promo__title">Чем мы занимаемся</h2>
                     <ul class="promo-list list">
-                        <li class="promo-item">
-                            <img src="./images/tablet.jpg" alt="планшет" width="370" height="294"/>
-                            <h3 class="promo-function">
+                        <li class="promo-list__item">
+                            <img class="promo-list__icon" src="./images/tablet.jpg" alt="планшет" width="370" height="294"/>
+                            <h3 class="promo-list__function">
                                 Десктопные приложения
                             </h3>
                         </li>
-                        <li class="promo-item">
-                            <img src="./images/phone.jpg" alt="телефон" width="370" height="294">
-                            <h3 class="promo-function">
+                        <li class="promo-list__item">
+                            <img class="promo-list__icon" src="./images/phone.jpg" alt="телефон" width="370" height="294">
+                            <h3 class="promo-list__function">
                                 Мобильные приложения
                             </h3>
                         </li>
-                        <li class="promo-item">
-                            <img src="./images/colors.jpg" alt="разсцетка" width="370" height="294">
-                            <h3 class="promo-function">
+                        <li class="promo-list__item">
+                            <img class="promo-list__icon" src="./images/colors.jpg" alt="разсцетка" width="370" height="294">
+                            <h3 class="promo-list__function">
                                 Дизайнерские решения
                             </h3>
                         </li>
@@ -127,7 +130,7 @@
             <!-- Команда -->
             <section class="team">
                 <div class="container">
-                    <h2 class="team-title">Наша команда</h2>
+                    <h2 class="title team-title">Наша команда</h2>
                     <ul class="team-list list">
                         <li class="team-item">
                             <img class="team-img" src="./images/img-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
@@ -283,7 +286,7 @@
             <!-- Клиенты -->
             <section class="clients">
                 <div class="container">
-                    <h2 class="clients-title">Постоянные клиенты</h2>
+                    <h2 class="title clients-title">Постоянные клиенты</h2>
                     <ul class="clients-list list">
                         <li class="clients-item">
                             <a href="" class="clients-link link">
@@ -336,7 +339,9 @@
         <footer class="footer">
             <div class="container footer-cont">
                 <div>
-                    <a class="footer-logo link" href="./index.html"><span class="logo">Web</span>Studio</a>
+                    <a class="logo footer__logo link" href="./index.html">
+                        <span class="logo__color">Web</span>Studio
+                    </a>
                     <address class="footer-address">
                         <ul class="footer-list list">
                             <li class="footer-item"><a class="footer-location link" href="https://goo.gl/maps/wgvnbsvhfN1eCGzh8" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
